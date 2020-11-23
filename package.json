@@ -1,0 +1,25 @@
+{
+  "name": "productcard",
+  "version": "1.0.0",
+  "description": "Responsive animated product card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crissesoto/productCard.git"
+  },
+  "author": "Crisse Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crissesoto/productCard/issues"
+  },
+  "homepage": "https://github.com/crissesoto/productCard#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
